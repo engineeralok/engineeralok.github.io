@@ -147,7 +147,7 @@ a:hover{
 #upper{
     
     /* border: 1px solid blue; */
-    width: 300px;
+    width: 100%px;
     height: auto;
     position: absolute;
     margin: 200px 0px 0px 110px;

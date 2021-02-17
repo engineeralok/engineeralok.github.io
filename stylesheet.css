@@ -10,28 +10,28 @@ body{
 /* header and navigation */
 
 .headcontainer{
-    display: flex;  
+    /* display: flex;   */
     /* flex-direction: column; */
     /* padding: 10px 50px; */
     width: 100%;
     /* height: 50px; */
-    position: fixed;
-    z-index: 1;
+    position: absolute;
+    /* z-index: 1; */
     /* font-family: 'Lato', sans-serif;     */
 
 }
 
 #header{
-    border: 1px solid black;
+    /* border: 1px solid rgb(147, 81, 255); */
     display: flex;
     width: 100%;
     height: 65px;
     background-color: white;
     font-family: 'Lato', sans-serif;
-    /* position: fixed; */
+    position: absolute;
     /* margin-left: 50px; */
     /* margin-right: 50px; */
-    padding: 8px 90px;
+    /* padding: 8px 0px; */
     /* justify-content: center; */
     /* align-items: center; */
 }
@@ -49,18 +49,18 @@ a img{
     height: 50px;
     width: 50px;
     /* margin-right: 20px; */
-    /* padding-left: 70px; */
+    padding-left: 90px;
     
 }
 
 nav{
     /* float: right; */
     /* position: fixed; */
-    border: 1px solid rgb(240, 40, 40);
+    /* border: 1px solid rgb(78, 255, 72); */
     width: 100%;
     height: 65px;
     /* display: flex; */
-    /* margin-right: 70px;  */
+    margin-right: 90px; 
     justify-content: center;
     align-items: center;
     /* margin-left: 40vw; */
@@ -70,16 +70,18 @@ nav{
 nav ul{
     /* position: fixed; */
     /* width: 100%; */
-    border: 1px solid rgb(8, 170, 245);
+    /* border: 1px solid rgb(8, 170, 245); */
     list-style-type: none;
     display: flex;    
     justify-content: flex-end;
     align-items: center;
+    /* width: 100%; */
+    position: relative;
 }
 
 nav ul li{
     /* position: fixed; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 7px;
     display: flex;
     padding: 0px 10px;
@@ -113,15 +115,15 @@ a{
     box-shadow: 3px 2px 7px #02a9c0;
 }
 
-a:hover{
-}
+/* a:hover{
+} */
 
 /* main section  */
 
 #main{
     /* flex-direction: column; */
     position: absolute;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: auto;
     margin-top: 100px;
@@ -147,7 +149,7 @@ a:hover{
 #upper{
     
     /* border: 1px solid blue; */
-    width: 100%px;
+    /* width: 100px; */
     height: auto;
     position: absolute;
     margin: 200px 0px 0px 110px;
@@ -166,21 +168,23 @@ span{
 
 
 #main p{
-    margin-top: 350px;
+    margin-top: 300px;
     margin-left: 110px;
     font-size: 1.2rem;
     line-height: 26px;
     /* border: 1px solid brown; */
     width: 400px;
-    font-weight: 300;
+    font-weight: 400;
+    position: absolute;
 }
 
 
 /* Services section */
 #services{
     position: absolute;
-    border: 1px solid blue;
-    margin-top: 800px;
+    /* border: 2px solid purple; */
+    /* margin-top: 800px; */
+    top: 800px;
     width: 100%;
     /* background-color: #f6f6f6;     */
     display: flex;
@@ -190,42 +194,41 @@ span{
     align-items: center;
 }
 .servicesh{
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .servicesh h3{
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     font-size: 1.6rem;
     margin: 0;
     
 
 }
-.servicesh h1{
-    border: 1px solid yellowgreen;
+h1{
+    /* border: 1px solid yellowgreen; */
     font-size: 2.8rem;
-    margin: 9px;
-
+    margin: 0px;
 }
+
 #customservices{
-    border: 1px dotted green;
-    /* background-color: rgb(87, 87, 218); */
+    /* border: 1px dotted green; */
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 280px;
-    ustify-content: center;
+    justify-content: center;
     align-items: center;
 }
 
 #customservices div{
-    border: 1px solid red;
-    /* margin: 0.5em; */
-    /* padding:0.5em; */
+    /* border: 1px solid red; */
+    margin: 3em;
+    padding:0.5em;
     display: flex;
     width: 22vw;
     display: flex;
@@ -237,6 +240,7 @@ span{
 
 #customservices div h1{
     font-size: 1.3rem;
+    margin: 8px;
 }
 #customservices div img{
     width: 50px;
@@ -247,6 +251,17 @@ span{
     border-radius: 23px;
     color: rgb(255, 255, 255);
 }
+/* more of us */
+#product{
+    top: 1500px;
+    /* padding:10px px; */
+    border: 1px solid orange;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+}
+
 
 /* About us section  */
 

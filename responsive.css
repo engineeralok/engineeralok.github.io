@@ -1,0 +1,163 @@
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+
+}
+
+/* navigation */
+.headcontainer{
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    height: 100px;
+    background-color: transparent;
+    width: 100%;
+}
+
+#header img{
+    width: 30px;
+    height: 29px;
+}
+
+nav{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0; */
+    /* padding:0; */
+    /* margin: auto;
+    padding: auto; */
+}
+
+
+/* main section  */
+
+.imag{
+    /* width: 20%; */
+    float: right;
+    margin: 0px;
+}
+
+.imag img{
+    width: 300px;
+}
+
+#main{
+    /* margin-top: 50px; */
+    top: 100px;
+    position: absolute;
+}
+
+#upper{
+    margin: 100px 0px 0px 100px ;
+}
+
+#upper h1{
+    font-size: 2rem;
+}
+
+#main p{
+    position: absolute;
+    margin-top: 150px;
+}
+/* Services section */
+#services{
+    /* margin-top: 0px; */
+    top: 600px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+/* More of us  */
+#product{
+    top: 1200px;
+    
+    margin: 5px;
+}
+
+#product{
+    
+}
+
+@media screen and (max-width: 910px) {
+    #main{
+        overflow: hidden;
+    }
+    .imag img{
+        width: 210px;
+    }
+    .imag{
+        width: 100px;
+        margin-top: 50px;
+        margin-right: 170px;
+    }    
+
+    #upper{
+        margin: 100px 0px 0px 70px ;
+    }
+
+    #main p{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+    #services{
+        /* margin-top: 0px; */
+        top: 600px;
+        height: auto;
+        width: 100%;
+    }
+
+    #customservices div{
+        margin: 2em;
+        width: 250px;
+    }
+    #product{
+        top: 1500px;
+        text-align: center;
+        
+        margin: 5px;
+    }
+    
+  }
+
+  @media screen and (max-width: 758px) {
+      .imag{
+          visibility: hidden;
+          /* display: none; */
+    }
+
+      .imag img{
+          visibility: hidden;
+    }
+      #product{
+        top: 2000px;
+        text-align: center;
+        
+        margin: 5px;
+    }
+    
+  }
+
